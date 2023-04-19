@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14BDD4AA29C426F400BE695A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BDD4A929C426F400BE695A /* AppDelegate.swift */; };
+		14BDD4AC29C426F400BE695A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BDD4AB29C426F400BE695A /* SceneDelegate.swift */; };
+		14BDD4AE29C426F400BE695A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BDD4AD29C426F400BE695A /* ViewController.swift */; };
+		14BDD4B129C426F400BE695A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BDD4AF29C426F400BE695A /* Main.storyboard */; };
+		14BDD4B429C426F400BE695A /* PlayAudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14BDD4B229C426F400BE695A /* PlayAudio.xcdatamodeld */; };
+		14BDD4B629C426F500BE695A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BDD4B529C426F500BE695A /* Assets.xcassets */; };
+		14BDD4B929C426F500BE695A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BDD4B729C426F500BE695A /* LaunchScreen.storyboard */; };
+		14BDD4C429C426F500BE695A /* PlayAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BDD4C329C426F500BE695A /* PlayAudioTests.swift */; };
+		14BDD4CE29C426F500BE695A /* PlayAudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BDD4CD29C426F500BE695A /* PlayAudioUITests.swift */; };
+		14BDD4D029C426F500BE695A /* PlayAudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BDD4CF29C426F500BE695A /* PlayAudioUITestsLaunchTests.swift */; };
+		14BDD4E129C42B7000BE695A /* y2mate.com - आरभ ह परचड  Aarambh Hai Prachand  Full Song  Without Lyrics  Kanhayyy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14BDD4E029C42B7000BE695A /* y2mate.com - आरभ ह परचड  Aarambh Hai Prachand  Full Song  Without Lyrics  Kanhayyy.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14BDD4C029C426F500BE695A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BDD49E29C426F400BE695A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BDD4A529C426F400BE695A;
+			remoteInfo = PlayAudio;
+		};
+		14BDD4CA29C426F500BE695A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BDD49E29C426F400BE695A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BDD4A529C426F400BE695A;
+			remoteInfo = PlayAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14BDD4A629C426F400BE695A /* PlayAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BDD4A929C426F400BE695A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14BDD4AB29C426F400BE695A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14BDD4AD29C426F400BE695A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14BDD4B029C426F400BE695A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14BDD4B329C426F400BE695A /* PlayAudio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlayAudio.xcdatamodel; sourceTree = "<group>"; };
+		14BDD4B529C426F500BE695A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14BDD4B829C426F500BE695A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14BDD4BA29C426F500BE695A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BDD4BF29C426F500BE695A /* PlayAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BDD4C329C426F500BE695A /* PlayAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioTests.swift; sourceTree = "<group>"; };
+		14BDD4C929C426F500BE695A /* PlayAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BDD4CD29C426F500BE695A /* PlayAudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioUITests.swift; sourceTree = "<group>"; };
+		14BDD4CF29C426F500BE695A /* PlayAudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14BDD4E029C42B7000BE695A /* y2mate.com - आरभ ह परचड  Aarambh Hai Prachand  Full Song  Without Lyrics  Kanhayyy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "y2mate.com - आरभ ह परचड  Aarambh Hai Prachand  Full Song  Without Lyrics  Kanhayyy.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BDD4A329C426F400BE695A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BDD4BC29C426F500BE695A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BDD4C629C426F500BE695A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BDD49D29C426F400BE695A = {
+			isa = PBXGroup;
+			children = (
+				14BDD4DF29C42B7000BE695A /* Sound */,
+				14BDD4A829C426F400BE695A /* PlayAudio */,
+				14BDD4C229C426F500BE695A /* PlayAudioTests */,
+				14BDD4CC29C426F500BE695A /* PlayAudioUITests */,
+				14BDD4A729C426F400BE695A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14BDD4A729C426F400BE695A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BDD4A629C426F400BE695A /* PlayAudio.app */,
+				14BDD4BF29C426F500BE695A /* PlayAudioTests.xctest */,
+				14BDD4C929C426F500BE695A /* PlayAudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14BDD4A829C426F400BE695A /* PlayAudio */ = {
+			isa = PBXGroup;
+			children = (
+				14BDD4A929C426F400BE695A /* AppDelegate.swift */,
+				14BDD4AB29C426F400BE695A /* SceneDelegate.swift */,
+				14BDD4AD29C426F400BE695A /* ViewController.swift */,
+				14BDD4AF29C426F400BE695A /* Main.storyboard */,
+				14BDD4B529C426F500BE695A /* Assets.xcassets */,
+				14BDD4B729C426F500BE695A /* LaunchScreen.storyboard */,
+				14BDD4BA29C426F500BE695A /* Info.plist */,
+				14BDD4B229C426F400BE695A /* PlayAudio.xcdatamodeld */,
+			);
+			path = PlayAudio;
+			sourceTree = "<group>";
+		};
+		14BDD4C229C426F500BE695A /* PlayAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				14BDD4C329C426F500BE695A /* PlayAudioTests.swift */,
+			);
+			path = PlayAudioTests;
+			sourceTree = "<group>";
+		};
+		14BDD4CC29C426F500BE695A /* PlayAudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14BDD4CD29C426F500BE695A /* PlayAudioUITests.swift */,
+				14BDD4CF29C426F500BE695A /* PlayAudioUITestsLaunchTests.swift */,
+			);
+			path = PlayAudioUITests;
+			sourceTree = "<group>";
+		};
+		14BDD4DF29C42B7000BE695A /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				14BDD4E029C42B7000BE695A /* y2mate.com - आरभ ह परचड  Aarambh Hai Prachand  Full Song  Without Lyrics  Kanhayyy.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14BDD4A529C426F400BE695A /* PlayAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BDD4D329C426F500BE695A /* Build configuration list for PBXNativeTarget "PlayAudio" */;
+			buildPhases = (
+				14BDD4A229C426F400BE695A /* Sources */,
+				14BDD4A329C426F400BE695A /* Frameworks */,
+				14BDD4A429C426F400BE695A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayAudio;
+			productName = PlayAudio;
+			productReference = 14BDD4A629C426F400BE695A /* PlayAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14BDD4BE29C426F500BE695A /* PlayAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BDD4D629C426F500BE695A /* Build configuration list for PBXNativeTarget "PlayAudioTests" */;
+			buildPhases = (
+				14BDD4BB29C426F500BE695A /* Sources */,
+				14BDD4BC29C426F500BE695A /* Frameworks */,
+				14BDD4BD29C426F500BE695A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BDD4C129C426F500BE695A /* PBXTargetDependency */,
+			);
+			name = PlayAudioTests;
+			productName = PlayAudioTests;
+			productReference = 14BDD4BF29C426F500BE695A /* PlayAudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14BDD4C829C426F500BE695A /* PlayAudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BDD4D929C426F500BE695A /* Build configuration list for PBXNativeTarget "PlayAudioUITests" */;
+			buildPhases = (
+				14BDD4C529C426F500BE695A /* Sources */,
+				14BDD4C629C426F500BE695A /* Frameworks */,
+				14BDD4C729C426F500BE695A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BDD4CB29C426F500BE695A /* PBXTargetDependency */,
+			);
+			name = PlayAudioUITests;
+			productName = PlayAudioUITests;
+			productReference = 14BDD4C929C426F500BE695A /* PlayAudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14BDD49E29C426F400BE695A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					14BDD4A529C426F400BE695A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					14BDD4BE29C426F500BE695A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 14BDD4A529C426F400BE695A;
+					};
+					14BDD4C829C426F500BE695A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 14BDD4A529C426F400BE695A;
+					};
+				};
+			};
+			buildConfigurationList = 14BDD4A129C426F400BE695A /* Build configuration list for PBXProject "PlayAudio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14BDD49D29C426F400BE695A;
+			productRefGroup = 14BDD4A729C426F400BE695A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14BDD4A529C426F400BE695A /* PlayAudio */,
+				14BDD4BE29C426F500BE695A /* PlayAudioTests */,
+				14BDD4C829C426F500BE695A /* PlayAudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BDD4A429C426F400BE695A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BDD4B929C426F500BE695A /* LaunchScreen.storyboard in Resources */,
+				14BDD4B629C426F500BE695A /* Assets.xcassets in Resources */,
+				14BDD4E129C42B7000BE695A /* y2mate.com - आरभ ह परचड  Aarambh Hai Prachand  Full Song  Without Lyrics  Kanhayyy.mp3 in Resources */,
+				14BDD4B129C426F400BE695A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BDD4BD29C426F500BE695A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BDD4C729C426F500BE695A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14BDD4A229C426F400BE695A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BDD4AE29C426F400BE695A /* ViewController.swift in Sources */,
+				14BDD4AA29C426F400BE695A /* AppDelegate.swift in Sources */,
+				14BDD4B429C426F400BE695A /* PlayAudio.xcdatamodeld in Sources */,
+				14BDD4AC29C426F400BE695A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BDD4BB29C426F500BE695A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BDD4C429C426F500BE695A /* PlayAudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BDD4C529C426F500BE695A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BDD4CE29C426F500BE695A /* PlayAudioUITests.swift in Sources */,
+				14BDD4D029C426F500BE695A /* PlayAudioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14BDD4C129C426F500BE695A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BDD4A529C426F400BE695A /* PlayAudio */;
+			targetProxy = 14BDD4C029C426F500BE695A /* PBXContainerItemProxy */;
+		};
+		14BDD4CB29C426F500BE695A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BDD4A529C426F400BE695A /* PlayAudio */;
+			targetProxy = 14BDD4CA29C426F500BE695A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14BDD4AF29C426F400BE695A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BDD4B029C426F400BE695A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14BDD4B729C426F500BE695A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BDD4B829C426F500BE695A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14BDD4D129C426F500BE695A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14BDD4D229C426F500BE695A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14BDD4D429C426F500BE695A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayAudio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.PlayAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14BDD4D529C426F500BE695A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayAudio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.PlayAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14BDD4D729C426F500BE695A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.PlayAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayAudio";
+			};
+			name = Debug;
+		};
+		14BDD4D829C426F500BE695A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.PlayAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayAudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayAudio";
+			};
+			name = Release;
+		};
+		14BDD4DA29C426F500BE695A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.PlayAudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayAudio;
+			};
+			name = Debug;
+		};
+		14BDD4DB29C426F500BE695A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.PlayAudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayAudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14BDD4A129C426F400BE695A /* Build configuration list for PBXProject "PlayAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BDD4D129C426F500BE695A /* Debug */,
+				14BDD4D229C426F500BE695A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BDD4D329C426F500BE695A /* Build configuration list for PBXNativeTarget "PlayAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BDD4D429C426F500BE695A /* Debug */,
+				14BDD4D529C426F500BE695A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BDD4D629C426F500BE695A /* Build configuration list for PBXNativeTarget "PlayAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BDD4D729C426F500BE695A /* Debug */,
+				14BDD4D829C426F500BE695A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BDD4D929C426F500BE695A /* Build configuration list for PBXNativeTarget "PlayAudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BDD4DA29C426F500BE695A /* Debug */,
+				14BDD4DB29C426F500BE695A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14BDD4B229C426F400BE695A /* PlayAudio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14BDD4B329C426F400BE695A /* PlayAudio.xcdatamodel */,
+			);
+			currentVersion = 14BDD4B329C426F400BE695A /* PlayAudio.xcdatamodel */;
+			path = PlayAudio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14BDD49E29C426F400BE695A /* Project object */;
+}
